@@ -1,0 +1,63 @@
+.body-border{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lavender;
+}
+.header{
+    font-family: '黑体';
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+    padding:0% 0% 0% 0%;
+    width: 100%;
+    height: 10%; 
+}
+.body0{
+    width: 100%;
+    height: 88%; 
+}
+.body1{
+    font-size: 0.51234rem;
+    color: brown;
+    height: 100%;
+    width: 20%;
+}
+.body1 ul{
+    width: 400px;
+}
+.body2{
+    height: 100%;
+    width: 60%;
+    float: left;
+    left: 50%;
+}
+.body2 img{
+   width: 100%;
+   height: 60%;
+}
+.body3{
+    font-size: 0.51234rem;
+    color: brown;
+    height: 100%;
+    width: 20%;
+    float: right;
+    right: 20%;
+}
+.footer{
+    text-align: center;
+    font-family: '黑体';
+    font-size: 3rem;
+    color: blue;
+    width: 100%;   
+    height: 10%;
+    margin: 100% 0% 0% 0%;
+}
+@media only screen and (max-width:400px){
+    .header,.footer{
+        background-color: lightcoral;
+    } 
+    .body1 li{
+        float: left;
+        margin: 0% 5% 0% 0%;
+    }
+}
